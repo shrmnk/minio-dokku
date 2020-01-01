@@ -146,6 +146,14 @@ dokku config:set --no-restart minio DOKKU_LETSENCRYPT_EMAIL=you@example.com
 dokku letsencrypt minio
 ```
 
+## Disabling Web UI
+
+In certain cases, you may not want to expose the web UI (browser) for minio. This can easily be done by adding an environment variable `MINIO_BROWSER` to `off`.
+
+```bash
+dokku config:set minio MINIO_BROWSER=off
+```
+
 ## Wrapping up
 
 Your Minio instance should now be available on [`https://minio.example.com`](https://minio.example.com).
