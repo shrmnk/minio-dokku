@@ -1,6 +1,6 @@
 ![](header.png)
 
-[![Minio Version](https://img.shields.io/badge/Minio-RELEASE.2020--12--12T08--39--07Z-blue.svg)](https://github.com/minio/minio/tree/RELEASE.2020-12-12T08-39-07Z)
+[![Minio Version](https://img.shields.io/badge/Minio-RELEASE.2021--03--26T00--00--41Z-blue.svg)](https://github.com/minio/minio/tree/RELEASE.2021-03-26T00-00-41Z)
 
 # Run Minio on Dokku
 
