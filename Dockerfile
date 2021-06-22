@@ -1,7 +1,7 @@
 FROM minio/minio:RELEASE.2021-06-17T00-10-46Z
 
 # Add user dokku with an individual UID
-RUN adduser -D -u 32767 -g dokku dokku
+RUN adduser -u 32767 -m -U dokku
 USER dokku
 
 # Create data directory for the user, where we will keep the data
